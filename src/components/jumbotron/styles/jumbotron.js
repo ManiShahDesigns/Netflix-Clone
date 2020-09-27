@@ -8,14 +8,14 @@ export const Inner = styled.div`
   max-width: 1100px;
   margin: auto;
   width: 100%;
-  @media (max-width: 1000px) {
+  @media (max-width: 949px) {
     flex-direction: column;
   }
 `;
 
 export const Pane = styled.div`
   width: 50%;
-  @media (max-width: 1000px) {
+  @media (max-width: 949px) {
     width: 100%;
     padding: 0 45px;
     text-align: center;
@@ -59,7 +59,7 @@ export const Item = styled.div`
 `;
 
 export const Container = styled.div`
-  @media (max-width: 1000px) {
+  @media (max-width: 949px) {
     ${Item}:last-of-type h2 {
       margin-bottom: 50px;
     }
