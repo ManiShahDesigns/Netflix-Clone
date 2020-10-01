@@ -38,33 +38,33 @@ export function FooterContainer() {
             <Footer.Row>
                 <Footer.Column>
                     {
-                        firstColLinks.map((link) => {
-                            return (<Footer.Link href="#">{link}</Footer.Link>);
-                        })
+                        firstColLinks.map( ( link ) => {
+                            return ( <Footer.Link href="#">{ link }</Footer.Link> );
+                        } )
                     }
                 </Footer.Column>
 
                 <Footer.Column>
                     {
-                        secondColLinks.map((link) => {
-                            return (<Footer.Link href="#">{link}</Footer.Link>);
-                        })
+                        secondColLinks.map( ( link ) => {
+                            return ( <Footer.Link href="#">{ link }</Footer.Link> );
+                        } )
                     }
                 </Footer.Column>
 
                 <Footer.Column>
                     {
-                        thirdColLinks.map((link) => {
-                            return (<Footer.Link href="#">{link}</Footer.Link>);
-                        })
+                        thirdColLinks.map( ( link ) => {
+                            return ( <Footer.Link href="#">{ link }</Footer.Link> );
+                        } )
                     }
                 </Footer.Column>
 
                 <Footer.Column>
                     {
-                        fourthColLinks.map((link) => {
-                            return (<Footer.Link href="#">{link}</Footer.Link>);
-                        })
+                        fourthColLinks.map( ( link ) => {
+                            return ( <Footer.Link href="#">{ link }</Footer.Link> );
+                        } )
                     }
                 </Footer.Column>
             </Footer.Row>
