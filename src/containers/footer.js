@@ -32,7 +32,7 @@ export function FooterContainer() {
     ];
 
     return (
-        <Footer>
+        <Footer className="gooz">
             <Footer.Title>Questions? Phone 1800 875 462</Footer.Title>
             <Footer.Break/>
             <Footer.Row>
