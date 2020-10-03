@@ -15,7 +15,6 @@ export default function Signin( props ) {
 
     const isInvalid = password === '' || emailAddress === '';
 
-    console.log( history )
     const handleSignIn = ( event ) => {
         event.preventDefault();
         firebase
